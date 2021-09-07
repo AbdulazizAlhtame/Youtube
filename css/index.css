@@ -7,10 +7,41 @@ body{
     font-family: "cairoFont", Helvetica, sans-serif;
     background-color: #fafafa;
 }
+a{
+    text-decoration:none !important;
+    color: black;
+}
+h6{
+    color: rgb(0, 0, 0) !important;
+}
 button{
     background-color: transparent !important;
     color: #bf40bf !important;
     border-color: #bf40bf !important;
+}
+.card .card-icons {
+    position: relative;
+}
+time {
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    background-color: black;
+    color: #fff;
+    padding: 0px 3px;
+}
+.card .fa-play{
+    position: absolute;
+    bottom: 41%;
+    right: 41%;
+    color: #2c3131c7;
+    display: none;
+}
+.card:hover .fa-play{
+    display: inline;
+}
+.card:hover{
+    transform: translateY(-1%);
 }
 button:hover{
     color: #fff !important;
