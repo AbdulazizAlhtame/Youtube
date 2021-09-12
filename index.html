@@ -21,9 +21,6 @@
                         <span class="video-icon py-1 px-2"> <i class="fas fa-play-circle" aria-hidden="true"></i></span>
                     </a>
                 </b>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mx-la-auto mr-auto">
                         <li class="nav-item active">
@@ -33,16 +30,18 @@
                             <a class="nav-link ml-lg-2 p-md-1 p-lg-2" href="#">المرفوعة حديثاً</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-md-1 p-lg-2" href="log.html"  > سجل المشاهدة</a>
+                            <a class="nav-link p-md-1 p-lg-2" href="#"  > الفيديوهات الرائجة</a>
                         </li>
                     </ul>
                     <div class="form-inline my-2 my-lg-0 ">
                         <input class="form-control mr-sm-2" type="search" placeholder=" إبحث" aria-label="ابحث">
                         <button onclick="location.href='search.html';" class="btn btn-outline-success my-2 my-sm-0" type="submit" >إبحث</button>
                     </div>
-                    <a class="nav-link ml-1" data-toggle="modal" data-target="#staticBackdrop" href="#" id="log-in">تسجيل الدخول</a>
                 </div>
+                <i class="fas fa-search mr-4 search-icon"></i>
+                <a class="nav-link-log-in ml-1" data-toggle="modal" data-target="#staticBackdrop" href="#" id="log-in">تسجيل الدخول</a>
             </nav>
+            <input type="search" class="form-control search-input" placeholder="ابحث عن ...">
             <!-- Modal -->
             <div class="modal fade " id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -113,7 +112,7 @@
             </div>
             <!-- The body of the page-->
                 <div class="content m-4">
-                    <h4 class="py-5">الفيديوهات المقترحة</h4>
+                    <h4 class=" head-title py-5 ">الفيديوهات المقترحة</h4>
                     <div class="row">
                         <div class="col-sm-6 col-md-4 col-lg-3">
                             <div class="card p-1 mb-4">

@@ -10,12 +10,21 @@ $(document).ready(function (){
         if (right == "0px")
         {
             $(".sidebar").css({"right": "-25rem"});
-            $(".layer").fadeOut();
+            $(".layer").fadeOut();/*إخفاء الطبقة السوداء */
         }
         else{
             $(".sidebar").css({"right" : "0"});
-            $(".layer").fadeIn();
+            $(".layer").fadeIn();/** إظهار الطبقة السوداء */
         }
+        /* إخفاء الطبقة السوداء عن الضغط عليها*/
+        $('.layer').click(function () {
+            $('.sidebar').css({ 'right': '-25rem' });
+            $('.layer').fadeOut();
+        });
+    
+    });
+    $(".search-icon").click(function(){
+        $(".search-input").slideToggle("slow");
     });
 
 });
