@@ -121,12 +121,14 @@ button:focus{
     padding: 15px 10px;
     display: none;
 }
+
+
 .navbar .search-icon:hover{
     color: #fff;
     background-color: #bf40bf;
 }
 .search-input{
-    position: absolute;
+    position: fixed;
     top: 72px;
     border: none;
     padding: 6px 23px;
@@ -163,5 +165,15 @@ button:focus{
 @media (min-width: 1066px){
     .search-input{
         display: none !important;
+    }
+}
+@media (max-width: 991px) {
+    .navbar b a {
+        margin-right: 35vw;
+    } 
+}
+@media (max-width: 575px) {
+    .navbar .search-icon{
+        left: 100px;
     }
 }

@@ -1,0 +1,70 @@
+.search-header .container .row .filter{
+    cursor:pointer;
+    color: #bf40bf;
+}
+.search-header .container .row .filter:hover{
+    color: #fff;
+    background-color: #bf40bf;
+    padding: 3px;
+}
+.search-header{
+    padding-top: 0px !important;
+}
+.search-header .container{
+    padding: 0px;
+}
+.search-header .filter-box{
+    display: none;
+}
+/*Changing the color when the user clik the option*/
+input:checked+label{
+    color: #bf40bf;
+}
+time {
+    position: absolute;
+    bottom: 10px;
+    left: 72%;
+    background-color: black;
+    color: #fff;
+    padding: 0px 3px;
+}
+.card .fa-play{
+    position: absolute;
+    bottom: 45%;
+    right: 13%;
+    color: #2c3131c7;
+    display: none;
+}
+.card .card-horizontal .card-body p{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-body{
+    min-width: 0;
+}
+@media (max-width: 992px) {
+    .card .card-top-image{
+        width: 100%;
+    }
+    time {
+        
+        bottom: 32%;
+        left: 10px;
+    }
+        
+}
+@media (max-width: 1200px) {
+    time {
+        bottom: 12%;
+        left:67%;
+    }
+        
+}
+@media (max-width: 992px) {
+    time {
+        bottom: 13%;
+        left:77%;
+    }
+        
+}
