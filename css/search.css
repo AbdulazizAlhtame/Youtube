@@ -20,51 +20,11 @@
 input:checked+label{
     color: #bf40bf;
 }
-time {
-    position: absolute;
-    bottom: 10px;
-    left: 72%;
-    background-color: black;
-    color: #fff;
-    padding: 0px 3px;
-}
-.card .fa-play{
-    position: absolute;
-    bottom: 45%;
-    right: 13%;
-    color: #2c3131c7;
-    display: none;
-}
-.card .card-horizontal .card-body p{
-    white-space:nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.card-body{
-    min-width: 0;
-}
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .card .card-top-image{
         width: 100%;
     }
-    time {
-        
-        bottom: 32%;
-        left: 10px;
+    .card .card-horizontal .fa-play{
+        right: 48%;
     }
-        
-}
-@media (max-width: 1200px) {
-    time {
-        bottom: 12%;
-        left:67%;
-    }
-        
-}
-@media (max-width: 992px) {
-    time {
-        bottom: 13%;
-        left:77%;
-    }
-        
 }

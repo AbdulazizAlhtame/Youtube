@@ -153,6 +153,14 @@ button:focus{
     padding: 0px;
     overflow: hidden;
 }
+.card .card-horizontal .card-body p{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-body{
+    min-width: 0;
+}
 @media (max-width: 1066px) { 
     /* لإخفاء حقل البحث والزر بجانبه عند العرض 1066*/
     .navbar .collapse .form-inline{
