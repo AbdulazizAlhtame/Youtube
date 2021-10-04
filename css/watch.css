@@ -1,0 +1,28 @@
+.card:hover{
+    transform: translateY(0%);
+}
+.watch-icons{
+    position: absolute;/* لوضع الايقونات باسفل الفيديو*/
+    bottom: 5px;
+    right: 20px;
+}
+.watch-icons i:hover{
+    cursor: pointer;
+}
+.watch-page #more{
+    display: none;
+}
+.card-inner{
+    display: none;
+}
+time{
+    left:24px !important;
+}
+.watch-page .fa-play{
+    right: 46% !important;
+}
+@media (min-width: 500px)and (max-width:1200px){
+    #myBtn{
+        margin-bottom: 70px !important;
+    }
+}
